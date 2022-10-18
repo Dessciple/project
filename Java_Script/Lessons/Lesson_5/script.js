@@ -15,12 +15,12 @@ console.log(--decr);
 
 console.log(5%2);
 
-console.log(2*4 === 8);
+console.log(2 + 2 * 2 !== '6');
 
 // && //ОПЕРАТОР И, работает только тогда,когда два и больше подоопытных ялвяются правдивыми выражениями!!!
 // || //ОПЕРАТОР ИЛИ
 
-const isChecked = true,
-      isClose = true;
+const isChecked = false,
+      isClose = false;
 
-console.log(isChecked && isClose);
+console.log(isChecked || ! isClose);
